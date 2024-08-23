@@ -1,0 +1,104 @@
+*{
+   font-family: poppins;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   /* padding: 5px 20px; */
+   align-items: center;
+   padding: 5px 20px;
+   box-shadow: 0 5px 10px -2px rgba(0,0,0,.1);
+}
+nav .logo img {
+   width: 90px;
+   height: 80px;
+}
+nav .logo {
+   font-size: 1.1rem;
+   display: flex;
+   align-items: center;
+   column-gap: 6px;
+   font-weight: 500;
+}
+nav a{
+   /* border: 1px solid red; */
+   padding: 7px 10px;
+   font-size: .9rem;
+   text-decoration: none;
+   color: #262622;
+
+}
+nav .navigate{
+   display: flex;
+   align-items: center;
+}
+nav .navigate hr{
+   border: none;
+   height: 30px;
+   width: 2px;
+   margin: 0 10px;
+   background: #262626;
+}
+nav .navigate .login{
+   background: #262626;
+   color: white;
+}
+.main{
+   height: calc(100vh - 90px);
+   /* padding: 20px; */
+   display: flex;
+   /* column-gap: 20px; */
+}
+.main .left{
+   display: flex;
+   flex-direction: column;
+   row-gap: 6px;
+   width: 20%;
+   padding: 15px;
+   border-right: 1px solid #26262623;
+}
+.main .left a{
+   background: #262626;
+   color: white;
+   padding: 8px 10px;
+   font-size: .9rem;
+   text-decoration: none;
+   border-radius: 3px;
+}
+.main .mid{
+   padding: 10px;
+   width: 50%;
+}
+.main .mid h1 {
+   text-align: center;
+}
+.main .mid h1.midTtitle{
+   text-align: center;
+   font-size: 1.5rem;
+   margin-bottom: 50px;
+}
+.main .mid .staff .eachStaff h1{
+   font-size: 1.1rem;
+   margin-bottom: 5px;
+   font-weight: 600;
+}
+.main .mid .staff .eachStaff h1 span{
+   opacity: .7;
+   margin-right: 10px;
+}
+.main .right{
+   width: 30%;
+   padding: 20px;
+}
+.main .right h1{
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 1.3rem;
+}
+.main .right p{
+   font-size: .96rem;
+   text-align: center;
+}
